@@ -31,8 +31,8 @@ import AVFoundation
 public class QRCodeReaderViewController: UIViewController {
   /// The code reader object used to scan the bar code.
   public let codeReader: QRCodeReader
+  public let readerView: QRCodeReaderContainer
 
-  let readerView: QRCodeReaderContainer
   let startScanningAtLoad: Bool
   let showCancelButton: Bool
   let showSwitchCameraButton: Bool
